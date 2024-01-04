@@ -4,7 +4,7 @@
 		<system.webServer>
 			<httpProtocol>
 				<customHeaders>
-					<add name="Content-Security-Policy" value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net cdnjs.cloudflare.com   *.kajoo.ca *.auth0.com *.kajoo.ai;  img-src 'self' data: https://s.gravatar.com https://*.wp.com/cdn.auth0.com/avatars; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com cdnjs.cloudflare.com; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com; upgrade-insecure-requests; block-all-mixed-content;" xdt:Location="Match(name)" xdt:Transform="Replace" />
+					<add name="Content-Security-Policy" value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net cdnjs.cloudflare.com   *.kajoo.ca *.auth0.com *.kajoo.ai;  img-src 'self' data: https://s.gravatar.com https://*.wp.com/cdn.auth0.com/avatars; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com cdnjs.cloudflare.com; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com; upgrade-insecure-requests; block-all-mixed-content;" xdt:Transform="Replace" xdt:Locator="Match(name)" />
 				</customHeaders>
 			</httpProtocol>
 		</system.webServer>
